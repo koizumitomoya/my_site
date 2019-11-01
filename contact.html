@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <title>about/tomoya design</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Bitter:400,700&display=swap" rel="stylesheet">
+        <script src="https://sdk.form.run/js/v2/formrun.js"></script>
+
+    </head>
+    <body id="contact">
+        <header>
+           <div class="logo">
+            <a href="index.html"><img src="images/logo.png" alt="tomoya design"></a>
+          </div>  
+          <nav>
+              <ul class="global-nav">
+                  <li><a href="portfolio.html">Portfolio</a></li>
+                  <li><a href="about.html">About</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+              </ul>
+          </nav>
+        </header>
+        <div id=wrap>
+            <div class="content">
+                <div class="main-center">
+                    <h1>Contact</h1>
+                    <p>こんたくとふぉーむ。気軽にどうぞ！！</p>
+                
+                <section>
+                    <h2 class="icon">Contact form</h2>
+                    <div class="form"  >
+                        <form class="formrun" action="https://form.run/api/v1/r/ss50le9re6rt44d0so1demfo" method="post">
+                            <dl>
+                                <dt><span class="required">お名前</span> </dt>
+                                <dd><input type="text" name="name" class="name" required></dd>
+                                <dt><span class="required">メールアドレス</span></dt>
+                                <dd><input type="email" name="email" class="email"  data-formrun-type="email" data-formrun-required ><div data-formrun-show-if-error="メールアドレス">メールアドレスを正しく入力してください</div></dd>                            
+                                <dt>お電話番号</dt>
+                                <dd><input type="tel" name="tel" class="tel"></dd>
+                                <dt>お問い合わせ種別</dt>
+                                <dd>
+                                    <select name="type" id="type">
+                                        <option value="撮影のご依頼">撮影のご依頼</option>
+                                        <option value="ホームページ作成">ホームページ作成</option>
+                                        <option value="その他のお問い合わせ">その他のお問い合わせ</option>
+                                    </select>
+                                </dd>
+                                <dt>メッセージ</dt>
+                                <dd><textarea name="message" id="message" cols="30" rows="10" data-formrun-required></textarea> <div data-formrun-show-if-error="お問い合わせ">お問い合わせ入力してください</div></dd>
+                                <button type="submit" class="btn"data-formrun-error-text="未入力の項目があります" data-formrun-submitting-text="送信中...">送信</button>
+                                <div class="attention">
+                                    <p>※「<span class="required"></span>」の付いている項目は必須項目です。</p>
+                                </div>
+
+
+
+
+                            </dl>
+                              <!-- ボット投稿をブロックするためのタグ -->
+  <div class="_formrun_gotcha">
+    <style media="screen">._formrun_gotcha {position:absolute!important;height:1px;width:1px;overflow:hidden;}</style>
+    <label for="_formrun_gotcha">If you are a human, ignore this field</label>
+    <input type="text" name="_formrun_gotcha" id="_formrun_gotcha" tabindex="-1">
+  </div>
+                        </form>
+                    </div>
+                </section>
+            </div>
+        </div>
+        <footer>
+            <small>(c)tomoya design</small>
+        </footer>
+        
+    </body>
+</html>

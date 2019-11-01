@@ -1,0 +1,496 @@
+@charset "utf-8";
+
+body{
+    margin:0;
+    padding:0;
+    background-color:#cccccc;
+    color:#333333;
+    font-size:15px;
+    line-height:2;
+}
+p,h1,h2,h3,h4,h5,h6{
+    margin-top:0;
+}
+img{
+    vertical-align:bottom;
+
+    
+}
+ul{
+    margin:0;
+    padding:0;
+}
+a{
+    color:#3583aa;
+    text-decoration:none;
+
+}
+a:visited{
+    color:#788d98;
+}
+a:hover{
+    text-decoration:underline;
+}
+header{
+    width:960px;
+    height:100px;
+    margin:0 auto;
+}
+
+.logo{
+    float:left;
+    margin-top:50px;
+}
+.global-nav{
+    float:right;
+    margin-top:60px;
+
+}
+.global-nav li{
+    float:left;
+    margin:0 20px;
+    font-size:30px;
+    list-style:none;
+    font-family: 'Bitter', serif;
+
+}
+.global-nav li a{
+    color:#ffffff;
+    /* font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+}
+.global-nav li a:hover{
+    border-bottom:2px solid #ffffff;
+    padding-bottom:3px;
+    text-decoration:none;
+}
+#wrap{
+    clear:both;
+    background-color:#ffffff;
+    margin-top:220px;
+    padding:35px 0;
+}
+.content{
+    width:960px;
+    margin:0 auto;
+}
+footer{
+    text-align:center;
+    color:#ffffff;
+    padding:20px 0;
+    background-color:#767671;
+}
+footer small{
+    font-size:12px;
+}
+#index h1{
+    font-size :70px;
+    line-height:1;
+    color:#ffffff;
+    font-family:'Bitter',serif;
+    margin-bottom:50px;
+    border:none;
+
+}
+#index .content{
+    margin-top:150px;
+}
+#index p{
+    font-size:16px;
+    color:#ffffff;
+    
+}
+.btn a{
+    background-color:#009cd3;
+    color:#ffffff;
+    font-size:20px;
+    /* font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+    font-family: 'Bitter', serif;
+
+    width:185px;
+    display:block;
+    text-align:center;
+    line-height:50px;
+    margin-top:20px;
+    border-radius:5px;
+    border:3px solid #009cd3;
+
+}
+.btn a:hover{
+    text-decoration:none;
+    color:#009cd3;
+    background-color:#ffffff;
+} 
+#index footer{
+    width:960px;
+    margin: 256px auto 0 auto;
+    text-align:left;
+    background-color:transparent;
+}
+#index{
+    background-image:url(../images/bg-index.JPG);
+    background-repeat:no-repeat;
+    background-size:cover;
+
+}
+#about{
+    background-image:url(../images/bg-about.JPG);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position-y:-200px;
+    background-attachment: fixed;
+
+
+}
+.main-center{
+    width:940px;
+    margin:0 auto;
+}
+h1{
+    /* font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+    font-size:36px;
+    border-bottom:1px solid #cccccc;
+    font-family: 'Bitter', serif;
+
+}
+h2{
+    /* font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+    font-size:24px;
+    font-family: 'Bitter', serif;
+
+
+}
+.icon:before{
+    content:"";
+    padding-right:10px;
+    border-left:7px solid #9cb4a4;
+}
+#about .profile-txt{
+    width:540px;
+    float:left;
+}
+#about .profile-txt span{
+    font-weight:bold;
+}
+#about .profile-image{
+    float:right;
+}
+.clearfix:after{
+    content:"";
+    display:block;
+    clear:both;
+}
+section{
+    margin-bottom:35px;
+}
+#about .career th,#about .job th{
+    width:240px;
+    background-color:#f0f0f0;
+    padding:12px 0;
+    border:1px solid #cccccc;
+    
+}
+#about .career td,#about .job td{
+    width:660px;
+    padding:12px 0 12px 40px;
+    border:1px solid #cccccc;
+}
+table{
+    border-spacing:0;
+    border-collapse:collapse;
+}
+#index #wrap{
+    background-color:transparent;
+    margin-top:0;
+    padding:0;
+}
+
+#portfolio{
+    background-image:url(../images/bg-portfolio.JPG);
+    background-repeat:no-repeat;
+    background-position-y: -220px;
+    background-attachment: fixed;
+
+}
+.main{
+    width:700px;
+    margin:0 10px;
+    float:left;
+}
+.sidebar{
+    width:200px;
+    margin:0 10px 0 30px;
+    float:right;
+    /* font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+    font-family: 'Bitter', serif;
+
+}
+a img:hover{
+    opacity:0.8;
+}
+/* /*  ここはサイドバーのところだが、まだ構想を考えて居ないため考えたらここを編集する */
+.sidebar h2{
+    margin-bottom:10px;
+}
+
+.sidebar ul{
+    font-size:16px;
+    margin-left:20px;
+}
+.sidebar ul a{
+    color:#333333;
+}
+ /* ここまで */
+ #contact{
+    background-image:url(../images/bg-contact.JPG);
+    background-repeat:no-repeat;
+    background-position-y:-200px;
+    background-attachment:fixed;
+    background-size:100% auto;
+
+ }
+ #contact .form{
+     background-color:#eaeaea;
+ }
+#contact .form dl dt{
+    width:165px;
+    padding:10px 0;
+    float:left;
+    clear:both;
+}
+#contact  .form dl dd{
+    padding:10px 0;
+}
+#contact .form .name{
+    width:240px;
+    height:30px;
+}
+#contact .form .email{
+    width:300px;
+    height:30px;
+}
+#contact .form .tel{
+    width:240px;
+    height:30px;
+}
+#contact .form .type{
+    width:180px;
+    height:30px;
+
+}
+#contact .form .message{
+    width:660px;
+    height:150px;
+}
+
+#contact .form button{
+
+    background-color:#009cd3;
+    color:#ffffff;
+    font-size:20px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width:120px;
+    display:block;
+    text-align:center;
+    line-height:50px;
+    margin-top:20px;
+    border-radius:5px;
+    border:3px solid #009cd3;
+    margin-left:165px;
+
+}
+#contact .form button:hover{
+    text-decoration:none;
+    color:#009cd3;
+    background-color:#ffffff;
+    cursor:pointer;
+} 
+#contact .form .required:after{
+    content:"*";
+    color:#ff0000; 
+}
+#photograph{
+    background-color:#000000;
+}
+#photograph #wrap,#computer #wrap {
+    margin-top:150px;
+}
+#photograph h1{
+    margin-bottom:70px;
+}
+#photograph img:hover{
+    opacity:0.6;
+}
+#photograph .photograph-list li{
+    float:left;
+    list-style:none;
+    margin:0 20px 15px 0;
+}
+#photograph .photograph-list li:nth-child(3n){
+    margin-right:0;
+}
+    
+
+/* computer */
+#computer{
+    background-color:#000000;
+}
+#computer .png{
+    width:700x;
+    height:300px;
+    overflow:auto;
+    margin:0;
+    margin-bottom:50px;
+
+}
+#computer .png:hover{
+    opacity:.5;
+}
+#computer .img{
+    width:650px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:600px){
+    body{
+        font-size:3.5vw;
+    }
+    h1{
+        font-size:7.2vw;
+    }
+    h2{
+        font-size:6vw;
+    }
+    header{
+        width:auto;
+        margin:0 5%;
+    }
+    .logo{
+        float:none;
+        margin-top:60px;
+        text-align:center;
+    }
+    .global-nav{
+        float:none;
+        margin-top:-20px;
+        text-align:center;
+    }
+    .global-nav li{
+        display:inline;
+        float:none;
+        margin:8px;
+        font-size:6vw;
+
+    }
+
+    #wrap{
+        margin-top:40px;
+        padding:35px 0 0;
+    }
+    .content{
+        width:100%;
+    }
+    .main{
+        float:none;
+        width:auto;
+        margin:0 5%;
+    }
+    h2 img{
+        max-width:100%;
+    }
+    .sidebar{
+        width:auto;
+        float:none;
+        margin:0;
+        padding:30px 10% 10px;
+        background-color:#f7f6f4;
+    }
+    #index{
+        background-image:url(../images/bg-index2\ .JPG);
+        width:100%;
+    }
+    #index .content{
+        margin-top:8vw;
+    }
+    #index .btn a{
+        font-size:5vw;
+        margin:0 10%;
+    }
+    #portfolio {
+        background-size:100% auto;
+        background-position-y:0;
+    }
+    #about {
+        background-position-y:0px;
+        background-size:contain;
+
+    }
+    #contact{
+        background-position-y :0px;
+        background-size:contain;
+        background-image:url(../images/bg-contact2.JPG)
+
+        
+
+    }
+    #contact .form dl dt {
+        font-size:3vw;
+        width:23vw;
+        
+    }
+    #contact .form  button{
+        font-size: 3vw;
+    width: 20vw;
+    line-height: 8vw;
+    }
+    #contact .form .email {
+        width: 50vw;
+    }
+    #contact .form .name {
+        width: 40vw;
+    }
+    #contact .form .tel {
+        width: 40vw;
+    }
+    .main-center{
+        float: none;
+    width: auto;
+    margin: 0 5%;
+    }
+    #about .profile-image{
+        float:none;
+        width:80%;
+    }
+    #about .profile-txt{
+        width:auto;
+        float:none;
+    }
+    #about .job{
+        margin-bottom:0;
+        padding-bottom:35px;
+    }
+    #photograph #wrap, #computer #wrap{
+        margin-top:40px;
+    }
+    #index h1{
+        font-size:10vw;
+        padding:0 10%;
+    }
+
+}
